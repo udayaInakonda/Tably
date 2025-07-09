@@ -1,0 +1,25 @@
+.venv
+.env# Ignore virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment variable file
+.env
+
+# Ignore logs, coverage reports, etc.
+*.log
+*.sqlite3
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*.pyo
+*.pdb
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
